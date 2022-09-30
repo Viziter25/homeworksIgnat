@@ -1,9 +1,10 @@
 .message {
-    float: bottom;
+    transform: scale(-1, 1);
 }
 
 
 .imageAndText {
+    color: #FFFFFF;
     display: flex;
     align-items: flex-end;
 }
@@ -15,7 +16,7 @@
 }
 
 .text {
-    background-color: #F5F7FB;
+    background-color: #0066CC;
     margin: auto 10px;
     padding: 10px;
     border-radius: 10px 10px 10px 0;
@@ -30,15 +31,19 @@
     display: block;
     width: 30px;
     height: 30px;
-    background: radial-gradient(60px at top left, transparent 49%, rgb(245, 247, 251) 51%) no-repeat right bottom;
+    background: radial-gradient(60px at top left, transparent 49%, rgb(0, 102, 204) 51%) no-repeat right bottom;
+
 }
 
 .name {
+    text-align: end;
     font-size: 16px;
     font-weight: 600;
+    transform: scale(-1, 1);
 }
 
 .messageText {
+    transform: scale(-1, 1);
     font-weight: 400;
 }
 
@@ -46,4 +51,7 @@
     font-size: 10px;
     font-weight: 600;
     margin-left: 10px;
+    transform: scale(-1, 1);
+    flex-direction: row-reverse;
+    text-align: end;
 }

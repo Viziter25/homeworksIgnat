@@ -1,11 +1,8 @@
 .friendMessage {
-    /*margin-right: 70px;*/
-    transform: scale(-1, 1);
-    float: bottom;
+
 }
 
 .friendImageAndText {
-    color: #FFFFFF;
     display: flex;
     align-items: flex-end;
 }
@@ -17,7 +14,7 @@
 }
 
 .friendText {
-    background-color: #0066CC;
+    background-color: #F5F7FB;
     margin: auto 10px;
     padding: 10px;
     border-radius: 10px 10px 10px 0;
@@ -32,19 +29,19 @@
     display: block;
     width: 30px;
     height: 30px;
-    background: radial-gradient(60px at top left, transparent 49%, rgb(0, 102, 204) 51%) no-repeat right bottom;
+    background: radial-gradient(60px at top left, transparent 49%, rgb(245, 247, 251) 51%) no-repeat right bottom;
 }
 
 .friendName {
-    text-align: end;
+
     font-size: 16px;
     font-weight: 600;
-    transform: scale(-1, 1);
+
 }
 
 .friendMessageText {
     font-weight: 400;
-    transform: scale(-1, 1);
+
 }
 
 .friendTime {
@@ -52,6 +49,5 @@
     font-size: 10px;
     font-weight: 600;
     margin-left: 10px;
-    transform: scale(-1, 1);
-    flex-direction: row-reverse;
+    text-align: end;
 }
