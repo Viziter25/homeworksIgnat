@@ -16,7 +16,7 @@ import s2 from '../../s1-main/App.module.css'
 * 11 - в файле Affair.tsx отобразить приходящие данные
 * */
 
-// types
+
 export type AffairPriorityType = 'high' | 'low' | 'middle'// need to fix any
 export type AffairType = {
     _id: any // need to fix any
