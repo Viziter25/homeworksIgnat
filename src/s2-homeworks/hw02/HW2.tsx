@@ -17,15 +17,15 @@ import s2 from '../../s1-main/App.module.css'
 * */
 
 
-export type AffairPriorityType = 'high' | 'low' | 'middle'// need to fix any
+export type AffairPriorityType = 'high' | 'low' | 'middle'
 export type AffairType = {
-    _id: any // need to fix any
-    name: any // need to fix any
+    _id: number
+    name: string
     priority: AffairPriorityType
 }
 export type FilterType = 'all' | AffairPriorityType
 
-// constants
+
 const defaultAffairs: AffairType[] = [
     {_id: 1, name: 'React', priority: 'high'},
     {_id: 2, name: 'anime', priority: 'low'},
@@ -42,12 +42,12 @@ export const filterAffairs = (affairs: AffairType[], filter: FilterType): Affair
     if(filter === 'middle') return affairs.filter(el => el.priority === filter)
     return affairs
 }
-export const deleteAffair = (affairs: AffairType[], _id: number): AffairType[] => { // need to fix any
+export const deleteAffair = (affairs: AffairType[], _id: number): AffairType[] => {
     return affairs.filter(el => el._id !== _id)
 }
 
 function HW2() {
-    const [affairs, setAffairs] = useState<AffairType[]>(defaultAffairs) // need to fix any
+    const [affairs, setAffairs] = useState<AffairType[]>(defaultAffairs)
     const [filter, setFilter] = useState<FilterType>('all')
 
     const filteredAffairs = filterAffairs(affairs, filter)
