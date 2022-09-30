@@ -1,6 +1,7 @@
 .message {
-    margin-left: 70px;
+    float: bottom;
 }
+
 
 .imageAndText {
     display: flex;

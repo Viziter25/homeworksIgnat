@@ -1,6 +1,7 @@
 .friendMessage {
-    margin-right: 70px;
+    /*margin-right: 70px;*/
     transform: scale(-1, 1);
+    float: bottom;
 }
 
 .friendImageAndText {
@@ -47,7 +48,10 @@
 }
 
 .friendTime {
+    display: flex;
     font-size: 10px;
     font-weight: 600;
     margin-left: 10px;
+    transform: scale(-1, 1);
+    flex-direction: row-reverse;
 }
