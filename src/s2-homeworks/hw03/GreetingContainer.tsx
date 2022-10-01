@@ -1,7 +1,6 @@
 import React, { ChangeEvent, KeyboardEvent, useState } from 'react'
 import Greeting from './Greeting'
 import { UserType } from './HW3'
-import user from '../hw08/User';
 
 type GreetingContainerPropsType = {
     users: UserType[] // need to fix any
@@ -61,6 +60,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
     const totalUsers = users.length
     const lastUserName = totalUsers > 0 ? users[totalUsers-1].name : ''// need to fix
+
 
     return (
         <Greeting
