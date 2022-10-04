@@ -78,7 +78,7 @@ const Stand = () => {
             checked={stateForAllCheckboxes}
             onChangeChecked={setChecked}
           >
-            some text
+            Hometask
           </SuperCheckbox>
         </div>
         {/*совместим со старым кодом:*/}
@@ -87,6 +87,8 @@ const Stand = () => {
             id={'hw4-super-checkbox-like-old'}
             checked={stateForAllCheckboxes}
             onChange={onchangeHandler}
+            onChangeChecked={setChecked}
+
           />
         </div>
       </div>
