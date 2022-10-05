@@ -1,4 +1,4 @@
-import React, {ChangeEvent, useState} from 'react'
+import React, {useState} from 'react'
 import s from './Stand.module.css'
 import SuperInputText from './common/c1-SuperInputText/SuperInputText'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
@@ -8,11 +8,7 @@ const Stand = () => {
   const [stateForAllInputs, setValue] = useState<string>('')
   const [error, setError] = useState<string>('')
 
-  const [stateForAllCheckboxes, setChecked] = useState<boolean>(true)
-
-  const onchangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
-    console.log(e.currentTarget.checked)
-  }
+  const [stateForAllCheckboxes, setChecked] = useState<boolean>(false)
 
   return (
 
@@ -86,9 +82,7 @@ const Stand = () => {
           <SuperCheckbox
             id={'hw4-super-checkbox-like-old'}
             checked={stateForAllCheckboxes}
-            onChange={onchangeHandler}
-            onChangeChecked={setChecked}
-
+            onChange={(e) => setChecked(e.currentTarget.checked)}
           />
         </div>
       </div>
