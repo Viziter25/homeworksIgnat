@@ -66,6 +66,9 @@ const Stand = () => {
       </div>
 
 
+
+
+
       <div className={s.checkboxes}>
         {/*чекбокс с текстом:*/}
         <div>
