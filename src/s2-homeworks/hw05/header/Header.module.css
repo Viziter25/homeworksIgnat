@@ -2,6 +2,12 @@
 }
 
 .header {
+    display: flex;
+    padding: 8px 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 6px 4px -1px rgba(0, 0, 0, .2);
 }
 
 .header h1 {
