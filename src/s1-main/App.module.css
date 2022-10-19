@@ -4,9 +4,12 @@
 }
 
 .hw {
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 .hwTitle {
-margin-top: 40px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
 }
