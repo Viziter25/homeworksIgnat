@@ -9,10 +9,13 @@
 }
 
 .select:focus {
-
+    outline: none;
+    border: #2b2bd2 solid 2px;
 }
 
 
 .option:hover {
-
+    box-shadow: 0 0 10px 100px #FED20F inset;
+    transition: all .2s ease-in-out;
+    background: #cc0000;
 }
