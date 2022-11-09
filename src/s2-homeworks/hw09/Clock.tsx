@@ -19,7 +19,7 @@ function Clock() {
   }
 
   const stop = () => {
-    setTimeout(() => clearInterval(timerId))
+    setTimeout(() => clearInterval(timerId), 0)
     setTimerId(undefined)
     // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
   }
@@ -30,9 +30,8 @@ function Clock() {
   const onMouseLeave = () => { // пишут студенты // спрятать дату если мышка не наведена
     setShow(false)
   }
-  const stringTime = ('0' + date.getHours()).slice(-2) + ':'  + ('0' + date.getMinutes()).slice(-2) + ':' + ('0'+ date.getSeconds()).slice(-2)// часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
-  const stringDate = ('0' + date.getDay()).slice(-2) + '.' + date.getMonth() + '.' +('0'+ date.getFullYear()).slice(-2)// день.месяц.год (01.02.2022) //  варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
-
+  const stringTime = ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2) + ':' + ('0' + date.getSeconds()).slice(-2)// часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
+  const stringDate = date.getDate() + '.' + (date.getMonth() + 1) + '.' + date.getFullYear()// день.месяц.год (01.02.2022) //  варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
   // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
   const stringDay = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'] // пишут студенты
   const stringMonth = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'] // пишут студенты
@@ -69,7 +68,7 @@ function Clock() {
       <div className={s.buttonsContainer}>
         <SuperButton
           id={'hw9-button-start'}
-          disabled={timerId !== undefined } // пишут студенты // задизэйблить если таймер запущен
+          disabled={timerId !== undefined} // пишут студенты // задизэйблить если таймер запущен
           onClick={start}
         >
           start
