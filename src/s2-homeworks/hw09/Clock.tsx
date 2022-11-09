@@ -11,7 +11,7 @@ function Clock() {
 
   const start = () => {
     setTimerId(window.setInterval(() => {
-      setDate(new Date())
+      setDate(new Date)
     }, 1000))
     // setShow(show)
     // пишут студенты // запустить часы (должно отображаться реальное время, а не +1)
@@ -30,7 +30,6 @@ function Clock() {
   const onMouseLeave = () => { // пишут студенты // спрятать дату если мышка не наведена
     setShow(false)
   }
-
   const stringTime = ('0' + date.getHours()).slice(-2) + ':'  + ('0' + date.getMinutes()).slice(-2) + ':' + ('0'+ date.getSeconds()).slice(-2)// часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
   const stringDate = ('0' + date.getDay()).slice(-2) + '.' + date.getMonth() + '.' +('0'+ date.getFullYear()).slice(-2)// день.месяц.год (01.02.2022) //  варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
 
