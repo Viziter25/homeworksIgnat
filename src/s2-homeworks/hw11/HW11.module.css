@@ -1,14 +1,16 @@
-.container {
-    width: 400px;
+.container .wrapper:first-child{
+    width: 212px;
 }
 
 .wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
+    width: 250px;
 }
 
 .number {
-width: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
 }
