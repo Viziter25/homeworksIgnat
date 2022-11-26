@@ -1,8 +1,22 @@
 .container {
+
 }
 
 .wrapper {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .number {
+
+}
+
+.MuiSlider-thumb {
+    height: 18px;
+    width: 18px;
+    border: solid 5px white;
+    outline: solid 2px #00CC22;
 }
