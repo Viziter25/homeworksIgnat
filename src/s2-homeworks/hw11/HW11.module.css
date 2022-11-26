@@ -11,12 +11,5 @@
 }
 
 .number {
-
-}
-
-.MuiSlider-thumb {
-    height: 18px;
-    width: 18px;
-    border: solid 5px white;
-    outline: solid 2px #00CC22;
+width: 10px;
 }

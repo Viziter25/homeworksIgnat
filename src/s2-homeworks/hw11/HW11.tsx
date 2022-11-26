@@ -37,6 +37,7 @@ function HW11() {
                             onChange={change}
                             value={value1}
                         />
+                        <span id={'hw11-value'} className={s.number}>{}</span>
                     </div>
                     <div className={s.wrapper}>
                         <span id={'hw11-value-1'} className={s.number}>{value1}</span>
