@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homeworksIgnat/static/css/main.f1612f34.css",
-    "main.js": "/homeworksIgnat/static/js/main.f1d5eb1f.js",
+    "main.css": "/homeworksIgnat/static/css/main.407950ad.css",
+    "main.js": "/homeworksIgnat/static/js/main.3ce58421.js",
     "static/js/787.66cb4309.chunk.js": "/homeworksIgnat/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/homeworksIgnat/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/homeworksIgnat/static/media/200.2b4de1542921864a6ecb8c3301ea4670.svg",
@@ -14,12 +14,15 @@
     "static/media/checked.svg": "/homeworksIgnat/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/homeworksIgnat/index.html",
     "static/media/burger.svg": "/homeworksIgnat/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.f1612f34.css.map": "/homeworksIgnat/static/css/main.f1612f34.css.map",
-    "main.f1d5eb1f.js.map": "/homeworksIgnat/static/js/main.f1d5eb1f.js.map",
+    "static/media/arrowdown_111022.svg": "/homeworksIgnat/static/media/arrowdown_111022.f336c0efb783fcf12ea8b88357ff26a7.svg",
+    "static/media/arrowup_111030.svg": "/homeworksIgnat/static/media/arrowup_111030.2e9af464a07e0b15d2e2186c84588ee1.svg",
+    "static/media/none.svg": "/homeworksIgnat/static/media/none.4ed307190809ab39540f10eb9b651744.svg",
+    "main.407950ad.css.map": "/homeworksIgnat/static/css/main.407950ad.css.map",
+    "main.3ce58421.js.map": "/homeworksIgnat/static/js/main.3ce58421.js.map",
     "787.66cb4309.chunk.js.map": "/homeworksIgnat/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1612f34.css",
-    "static/js/main.f1d5eb1f.js"
+    "static/css/main.407950ad.css",
+    "static/js/main.3ce58421.js"
   ]
 }
